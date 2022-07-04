@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -128,23 +129,29 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- @media screen and (max-width:768px){
-    .container{
+@media screen and (max-width:768px) {
+    .container {
         width: auto;
     }
- }
+}
 
 /* soluzione mobile */
 @media screen and (max-width:480px) {
-    col.{
+    col. {
         flex-basis: 0px;
         flex-grow: 1;
     }
-    .row{
+
+    .row {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-}
+
+    .text-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
     }
 }
